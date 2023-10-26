@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { MobileBurgerMenu } from './MobileBurgerMenu';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,20 +13,28 @@ export function Header() {
       <Link href="/" className="item-center flex pl-[27px] hover:opacity-30">
         <Image src="/title.svg" alt="タイトル" width={250} height={33} />
       </Link>
-      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[3rem] font-light">
+      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[3rem] font-light text-gray-800">
           <Link href='/' className='text-xl text-thin hover:text-gray-400'>
             H<span className='text-blue-700'>O</span>ME
           </Link>
-          <Link href='/skills' className='pl-5 text-xl hover:text-gray-400'>
+          <Link href='/skills' className='pl-12 text-xl hover:text-gray-400'>
             SK<span className='text-red-700'>I</span>LLS
           </Link>
-          <Link href='/works' className='pl-5 text-xl hover:text-gray-400'>
+          <Link href='/works' className='pl-12 text-xl hover:text-gray-400'>
             W<span className='text-blue-700'>O</span>RKS
           </Link>
-          <Link href='/contact' className='pl-5 text-xl hover:text-gray-400'>
+          <Link href='/contact' className='pl-12 text-xl hover:text-gray-400'>
             C<span className='text-blue-700'>O</span>NTACT
           </Link>
       </div>
+      <div className="flex pr-[1.5rem] md:hidden pt-6">
+        <div className="pt-[9px]">
+          <button onClick={() => setIsOpen(true)}>
+            <Image src="/burger_menu.svg" alt="バーガーメニュー" width={41} height={40} />
+          </button>
+        </div>
+      </div>
+      <MobileBurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
     </main>
   );
 }
