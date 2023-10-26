@@ -13,18 +13,21 @@ export function Header() {
       <Link href="/" className="item-center flex pl-[27px] hover:opacity-30">
         <Image src="/title.svg" alt="タイトル" width={250} height={33} />
       </Link>
-      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[7rem] font-light text-gray-800">
-          <Link href='/' className='text-xl text-thin hover:text-gray-400'>
-            H<span className='text-blue-700'>O</span>ME
+      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[3rem] xl:pr-[7rem] font-light text-gray-800">
+          <Link href='/' className='text-base xl:text-xl text-thin hover:text-gray-400'>
+            H<span className='text-sky-600'>O</span>ME
           </Link>
-          <Link href='/skills' className='pl-12 text-xl hover:text-gray-400'>
-            SK<span className='text-red-700'>I</span>LLS
+          <Link href='/skills' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400'>
+            SK<span className='text-rose-600'>I</span>LLS
           </Link>
-          <Link href='/works' className='pl-12 text-xl hover:text-gray-400'>
-            W<span className='text-blue-700'>O</span>RKS
+          <Link href='/works' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400'>
+            W<span className='text-sky-600'>O</span>RKS
           </Link>
-          <Link href='/contact' className='pl-12 text-xl hover:text-gray-400'>
-            C<span className='text-blue-700'>O</span>NTACT
+          <Link href='/about' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400'>
+            AB<span className='text-sky-600'>O</span>UT
+          </Link>
+          <Link href='/contact' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400'>
+            C<span className='text-sky-600'>O</span>NTACT
           </Link>
       </div>
       <div className="flex pr-[1.5rem] md:hidden pt-6">
