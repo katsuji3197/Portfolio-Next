@@ -20,16 +20,23 @@ type FooterSNS = {
 
 const mobileBurgerMenuItems: Array<MobileBurgerMenuItem> = [
   {
-    text: 'TOP',
+    text: 'HOME',
     href: '/',
   },
+
   {
-    text: 'ABOUT',
-    href: '/about',
+    text: 'SKILLS',
+    href: '/skills',
   },
+
   {
     text: 'WORKS',
     href: '/works',
+  },
+
+  {
+    text: 'ABOUT',
+    href: '/about',
   },
   {
     text: 'CONTACT',
@@ -81,7 +88,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
               alt="閉じる"
             />
           </button>
-          <div className="flex max-h-[50vh] min-h-[380px] flex-col justify-between pt-[13vh] text-[24px] sm:text-[30px] text-gray-700 pl-9">
+          <div className="flex max-h-[50vh] min-h-[380px] flex-col justify-between pt-[10vh] text-[24px] sm:text-[30px] text-gray-700 pl-9">
             {mobileBurgerMenuItems.map((item) => (
               <Link href={item.href} key={item.text} onClick={closeMenu}>
                 <p>{item.text}</p>
