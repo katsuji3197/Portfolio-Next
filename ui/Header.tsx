@@ -13,7 +13,7 @@ export function Header() {
       <Link href="/" className="item-center flex pl-[27px] hover:opacity-30">
         <Image src="/title.svg" alt="タイトル" width={250} height={33} />
       </Link>
-      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[3rem] font-light text-gray-800">
+      <div className="g-black hidden bg-opacity-30 md:flex md:items-center md:justify-between md:pr-[7rem] font-light text-gray-800">
           <Link href='/' className='text-xl text-thin hover:text-gray-400'>
             H<span className='text-blue-700'>O</span>ME
           </Link>
