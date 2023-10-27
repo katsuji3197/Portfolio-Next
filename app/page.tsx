@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-cyan-50 dark:bg-slate-500">
 
-      <div className='pl-12 xl:pl-48 pt-48 pb-48 md:pb-30'>
+      <div className='pl-12 xl:pl-48 pt-48 pb-48 md:pb-30 dark:pl-0'>
         <div>
-          <Image src="/topcatch.svg" alt="Turn Design into tech" width={350} height={300} className='dark:bg-gray-200 dark:p-8'/>
+          <Image src="/topcatch.svg" alt="Turn Design into tech" width={320} height={300} className='dark:bg-gray-200 dark:p-8'/>
         </div>
       </div>
       <div className='flex flex-wrap flex-col justify-center items-center pb-10'>
