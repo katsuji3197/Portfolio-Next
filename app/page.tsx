@@ -12,7 +12,7 @@ export default function Home() {
       <div className='flex flex-wrap flex-col justify-center items-center pb-10'>
         <div className='flex-col justify-center text-center bg-white bg-opacity-70 pt-6 pb-12 w-11/12 shadow-xl'>
           <SectionTitle title='Works'>タップして詳細を確認できます。</SectionTitle>
-          <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-12 px-10 pt-10 w-full pb-3'>
+          <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
             <WorksDisplay imgsrc='/webmock.png' title='Web' href='/works/cirkithp'>所属している課外活動のホームページデザインを担当しました。</WorksDisplay>
             <WorksDisplay imgsrc='/Alienmock.png' title='UI/UX' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
             <WorksDisplay imgsrc='/posterdisp.png' title='Poster' href='/works/poster'>授業の総まとめとして成果をまとめたポスターをいくつか作成しました</WorksDisplay>
