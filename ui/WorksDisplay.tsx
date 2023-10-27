@@ -5,13 +5,13 @@ import React from 'react';
 type Props = {
   title: string;
   imgsrc: string;
-  children?: string;
+  children: string;
   href: string;
 };
 
 export function WorksDisplay(props: Props) {
   return (
-    <Link className="flex flex-col items-center w-4/5 lg:w-1/4 xl:w1/5 h-full p-5 bg-white text-center shadow-xl rounded-xl hover:bg-cyan-50 duration-500 hover:shadow-3xl xl:h-[450px]" href={props.href}>
+    <Link className="flex flex-col items-center w-4/5 lg:w-1/4 h-full p-5 bg-white text-center shadow-xl rounded-xl hover:bg-cyan-50 duration-500 hover:shadow-3xl xl:h-[450px]" href={props.href}>
       <div className='text-gray-800 text-2xl'>
         {props.title}
       </div>
