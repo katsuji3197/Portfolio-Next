@@ -25,11 +25,6 @@ const mobileBurgerMenuItems: Array<MobileBurgerMenuItem> = [
   },
 
   {
-    text: 'SKILLS',
-    href: '/skills',
-  },
-
-  {
     text: 'WORKS',
     href: '/works',
   },
