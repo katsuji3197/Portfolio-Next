@@ -14,7 +14,7 @@ type FooterSNS = {
 const rightTexts: Array<FooterText> = [
   {
     text: 'ABOUT',
-    href: '/activity',
+    href: '/about',
   },
   {
     text: 'CONTACT',
