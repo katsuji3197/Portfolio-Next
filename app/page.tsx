@@ -1,5 +1,6 @@
 import { ReadMoreButton } from '@/ui/ReadMoreButton'
 import { SectionTitle } from '@/ui/SectionTitle'
+import { TopCatchTitle } from '@/ui/TopCatchTitle'
 import { WorksDisplay } from '@/ui/WorksDisplay'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -8,9 +9,9 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-cyan-50 dark:bg-slate-500">
 
-      <div className='pl-12 xl:pl-48 pt-48 pb-48 md:pb-30 dark:pl-0'>
+      <div className='md:pl-12 xl:pl-48 pt-64 pb-48 md:pb-30 dark:pl-0'>
         <div>
-          <Image src="/topcatch.svg" alt="Turn Design into tech" width={320} height={300} className='dark:bg-gray-200 dark:p-8'/>
+          <TopCatchTitle />
         </div>
       </div>
       <div className='flex flex-wrap flex-col justify-center items-center pb-10'>
