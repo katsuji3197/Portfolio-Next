@@ -20,7 +20,7 @@ export default function Home() {
             <ReadMoreButton href='/works'/>
           </div>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
-            <WorksDisplay imgsrc='/webmock.png' title='Web' href='/works/cirkithp'>所属している課外活動のホームページデザインを担当しました。</WorksDisplay>
+            <WorksDisplay imgsrc='/webmock.png' title='Web' href='/works/cirkithp'>所属する課外活動のホームページデザインを担当しました。</WorksDisplay>
             <WorksDisplay imgsrc='/Alienmock.png' title='UI/UX' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
             <WorksDisplay imgsrc='/posterdisp.png' title='Poster' href='/works/poster'>授業の成果をまとめたポスターをいくつか作成しました</WorksDisplay>
           </div>
@@ -41,7 +41,7 @@ export default function Home() {
             <div className='pt-2 dark:text-gray-100'>課外活動でありながら、株式会社でもある「<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>」に所属しています。</div>
             <div className='pt-2 dark:text-gray-100'>デザイナーとして、HPやアプリのデザイン・開発を行っています。</div>
           </div>
-          <div className='pt-10 text-gray-800 lg:pl-4'>
+          <div className='pt-10 pb-10 text-gray-800 lg:pl-4'>
             <ReadMoreButton href='/about'/>
           </div>
         </div>
