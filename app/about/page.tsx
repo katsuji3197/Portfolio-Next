@@ -114,15 +114,15 @@ export default function About() {
         <div className="w-full pt-10">
           <div className='flex-col justify-center text-center bg-white dark:bg-gray-700 dark:bg-opacity-60 bg-opacity-60 pt-6 pb-12 w-full shadow-xl'>
             <div className='md:flex justify-between md:px-28 xl:px-[240px]'>
-              <div className="text-lg lg:text-3xl text-gray-700 dark:text-gray-300">完全に理解した</div>
+              <div className="text-lg lg:text-3xl text-gray-700 dark:text-gray-300 -translate-y-10">完全に理解した</div>
             </div>
             <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-0 px-10 pt-10 w-full pb-3'>
               
               <div className="flex flex-col items-center w-11/12 lg:w-1/4 p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 :h-[450px]">
-                <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8'>
+                <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8 lg:-translate-y-10 lg:-translate-x-24'>
                   CSS
                 </div>
-                <div className='text-gray-600 dark:text-slate-100 pt-2 lg:pt-5 absolute'>
+                <div className='text-gray-600 dark:text-slate-100 pt-8 absolute -translate-x-16 lg:-translate-x-64'>
                 完全に理解した。
                 </div>
               </div>
