@@ -27,6 +27,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      
       <div className='flex flex-wrap flex-col justify-center items-center lg:pb-10'>
         <div className='flex-col justify-center text-center pt-6 pb-12 w-full'>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-3 lg:gap-16 px-10 pt-10 w-full lg:pb-3'>
@@ -39,7 +40,6 @@ export default function About() {
             <InfoDisplay title="そだち">石川県金沢市</InfoDisplay>
             <InfoDisplay title="誕生日">2003.05.16</InfoDisplay>
           </div>
-          
         </div>
       </div>
 

@@ -34,7 +34,7 @@ export default function Works() {
           </div>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
             <SkillsDisplay title="名刺" imgsrc="/meishi_me.png">課外活動で使用する仮の名刺を作成しました。</SkillsDisplay>
-            <SkillsDisplay title="ロゴ" imgsrc="/rarry_logo.png">Pythonを使用して、ソケット通信やBot作成、画像加工などができます。</SkillsDisplay>
+            <SkillsDisplay title="ロゴ" imgsrc="/rarry_logo.png">授業にて提案したプロダクトのロゴです。</SkillsDisplay>
             <SkillsDisplay title="SAKITO-UI" imgsrc="/sakito.png">アンケートシステム「SAKITO」のUIデザインを提案しました。</SkillsDisplay> </div>
         </div>
     </main>
