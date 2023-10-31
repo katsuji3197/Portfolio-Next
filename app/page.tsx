@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-cyan-50 dark:bg-slate-500">
 
-      <div className='md:pl-12 xl:pl-48 pt-64 pb-48 md:pb-30 dark:pl-0'>
+      <div className='md:pl-12 xl:pl-48 pt-64 pb-48 md:pb-30'>
         <div>
           <TopCatchTitle />
         </div>
