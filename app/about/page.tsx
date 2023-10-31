@@ -119,7 +119,7 @@ export default function About() {
             <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-0 px-10 pt-10 w-full pb-3'>
               
               <div className="flex flex-col items-center w-11/12 lg:w-1/4 p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 :h-[450px]">
-                <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8 lg:-translate-y-10 lg:-translate-x-24'>
+                <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8 lg:-translate-y-10 lg:translate-x-24'>
                   CSS
                 </div>
                 <div className='text-gray-600 dark:text-slate-100 pt-8 absolute -translate-x-16 lg:-translate-x-64'>
