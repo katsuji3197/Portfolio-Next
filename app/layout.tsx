@@ -17,8 +17,6 @@ export const metadata: Metadata = {
     'とある学生のポートフォリオ',
 };
 
-export const runtime = 'edge';
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
