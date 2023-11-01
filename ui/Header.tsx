@@ -16,22 +16,22 @@ export function Header() {
           <div className='text-base md:text-xl xl:text-2xl pt-2 text-gray-700 dark:text-gray-300'>Folio of NAKATSUJI Motoki</div>
         </div>
       </Link>
-      <div className='md:pr-[3rem] xl:pr-[4rem] pt-5'>
+      <div className='md:pr-[3rem] xl:pr-[4rem] pt-5 font-medium'>
         <div className="g-black hidden md:flex md:items-center md:justify-between font-light text-gray-800 bg-white bg-opacity-70 px-10 py-6 rounded-full hover:text-2xl duration-300 drop-shadow-lg dark:bg-gray-700 dark:bg-opacity-75">
-            <Link href='/' className='text-base xl:text-xl text-thin hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
+            <Link href='/' className='text-base xl:text-xl font-medium hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
               H<span className='text-sky-600 dark:text-sky-300'>O</span>ME
             </Link>
             {/* <Link href='/skills' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
               SK<span className='text-rose-600 dark:text-rose-300'>I</span>LLS
             </Link> */}
-            <Link href='/works' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
+            <Link href='/works' className='pl-6 xl:pl-12 text-base font-medium xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
               W<span className='text-sky-600 dark:text-sky-300'>O</span>RKS
             </Link>
             
-            <Link href='/about' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
+            <Link href='/about' className='pl-6 xl:pl-12 text-base font-medium xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
               AB<span className='text-sky-600 dark:text-sky-300'>O</span>UT
             </Link>
-            <Link href='/contact' className='pl-6 xl:pl-12 text-base xl:text-xl hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
+            <Link href='/contact' className='pl-6 xl:pl-12 text-base xl:text-xl font-medium hover:text-gray-400 hover:text-2xl duration-300 dark:text-white'>
               C<span className='text-sky-600 dark:text-sky-300'>O</span>NTACT
             </Link>
         </div>
