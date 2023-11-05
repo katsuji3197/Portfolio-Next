@@ -29,14 +29,15 @@ export default function Works() {
         </div>
       </div>
       <div className='flex-col justify-center text-center bg-white dark:bg-gray-600 dark:bg-opacity-60 bg-opacity-60 pt-6 pb-12 w-full shadow-xl'>
-          <div className='md:flex justify-between md:px-28 lg:px-48 xl:px-[240px] pt-5'>
-            <InfoDisplay title='Little'>ちょっとした作品</InfoDisplay>
-          </div>
-          <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
-            <SkillsDisplay title="名刺" imgsrc="/meishi_me.png">課外活動で使用する仮の名刺を作成しました。</SkillsDisplay>
-            <SkillsDisplay title="ロゴ" imgsrc="/rarry_logo.png">授業にて提案したプロダクトのロゴです。</SkillsDisplay>
-            <SkillsDisplay title="SAKITO-UI" imgsrc="/sakito.png">アンケートシステム「SAKITO」のUIデザインを提案しました。</SkillsDisplay> </div>
+        <div className='md:flex justify-between md:px-28 lg:px-48 xl:px-[240px] pt-5'>
+          <InfoDisplay title='Little'>ちょっとした作品</InfoDisplay>
         </div>
+        <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
+          <SkillsDisplay title="名刺" imgsrc="/meishi_me.png">課外活動で使用する仮の名刺を作成しました。</SkillsDisplay>
+          <SkillsDisplay title="ロゴ" imgsrc="/rarry_logo.png">授業にて提案したプロダクトのロゴです。</SkillsDisplay>
+          <SkillsDisplay title="SAKITO-UI" imgsrc="/sakito.png">アンケートシステム「SAKITO」のUIデザインを提案しました。</SkillsDisplay>
+        </div>
+      </div>
     </main>
   )
 }
