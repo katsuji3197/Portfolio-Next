@@ -56,9 +56,11 @@ export default function About() {
             <SkillsDisplay title="Illustrator" imgsrc="/illustrator.svg">Adobe Illustratorを用いて、ポスターの作成や簡単なロゴデザインができます。</SkillsDisplay>
             <SkillsDisplay title="Tailwind CSS" imgsrc="/tailwind.svg">スタイルの記述をTailwind CSSで記述することができます。</SkillsDisplay>
           </div>
+
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
-            
+
             <div className="flex flex-col items-center w-11/12 lg:w-1/4 h-full p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 xl:h-[450px]">
+              
               <div className='text-gray-800 dark:text-slate-50 ttext-xl lg:text-2xl'>
                 チーム開発
               </div>
@@ -116,14 +118,17 @@ export default function About() {
 
         <div className="w-full pt-10">
           <div className='flex-col justify-center text-center bg-white dark:bg-gray-700 dark:bg-opacity-60 bg-opacity-60 pt-6 pb-12 w-full shadow-xl'>
+            
             <div className='md:flex justify-between md:px-28 lg:px-48 xl:px-[240px]'>
               <div className="lg:pl-24 text-lg lg:text-3xl text-gray-700 dark:text-gray-300">学習中・少しだけ使ったことがある</div>
             </div>
+
             <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
               <SkillsDisplay title="Maya" imgsrc="/maya.svg">Mayaを使用して、簡単な3Dモデルを作成することができます。</SkillsDisplay>
               <SkillsDisplay title="Python" imgsrc="/python.svg">Pythonを使用して、ソケット通信やBot作成、画像加工などができます。</SkillsDisplay>
               <SkillsDisplay title="Davinch Resolve" imgsrc="/davinch.png">Davinch Resolveを使用して、簡単な動画を作成できます。</SkillsDisplay>
             </div>
+            
             <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
               
               <div className="flex flex-col items-center w-11/12 lg:w-1/4 h-full p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 xl:h-[450px]">
