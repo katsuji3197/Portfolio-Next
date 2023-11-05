@@ -94,8 +94,24 @@ export default function About() {
                 Linux/UNIXコマンドを叩いてサーバーにデプロイしたり、安全な通信を行うための設定ができます。
               </div>
             </div>
-
           </div>
+
+          <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
+            <SkillsDisplay title="VS Code" imgsrc="/code.svg">コーディングは主にVS Codeを使用しています。</SkillsDisplay>
+            <SkillsDisplay title=" MS Office" imgsrc="/office.svg">Power Pointで資料を作成したり、Excelにてデータの管理・分析を行えます。</SkillsDisplay>
+            <div className="flex flex-col items-center w-11/12 lg:w-1/4 h-full p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 xl:h-[450px]">
+              <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8'>
+                Notion
+              </div>
+              <svg width="200" height="230" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-800 dark:fill-slate-200 p-12 lg:p-4'>
+                <path d="M3.104 3.91005C3.688 4.38405 3.906 4.34805 5.002 4.27505L15.334 3.65505C15.554 3.65505 15.371 3.43505 15.298 3.39905L13.582 2.15905C13.253 1.90405 12.815 1.61105 11.976 1.68405L1.971 2.41405C1.607 2.45005 1.534 2.63305 1.679 2.77905L3.104 3.91005ZM3.724 6.31805V17.1881C3.724 17.7731 4.016 17.9911 4.674 17.9551L16.028 17.2981C16.685 17.2621 16.758 16.8601 16.758 16.3861V5.58805C16.758 5.11405 16.576 4.85805 16.174 4.89505L4.308 5.58805C3.87 5.62405 3.724 5.84305 3.724 6.31805ZM14.934 6.90105C15.006 7.22905 14.934 7.55805 14.604 7.59505L14.057 7.70405V15.7291C13.582 15.9851 13.144 16.1311 12.779 16.1311C12.195 16.1311 12.049 15.9481 11.611 15.4011L8.032 9.78305V15.2191L9.165 15.4741C9.165 15.4741 9.165 16.1311 8.251 16.1311L5.732 16.2771C5.659 16.1311 5.732 15.7671 5.988 15.6931L6.645 15.5111V8.32405L5.732 8.25105C5.659 7.92205 5.842 7.44805 6.353 7.41105L9.055 7.23005L12.779 12.9201V7.88705L11.829 7.77805C11.757 7.37605 12.049 7.08505 12.414 7.04805L14.934 6.90205V6.90105ZM1.131 1.42905L11.537 0.663054C12.814 0.553054 13.143 0.627054 13.947 1.21005L17.268 3.54505C17.816 3.94605 17.999 4.05505 17.999 4.49305V17.2981C17.999 18.1011 17.707 18.5751 16.685 18.6481L4.6 19.3781C3.833 19.4141 3.468 19.3051 3.066 18.7941L0.62 15.6201C0.182 15.0361 0 14.5991 0 14.0871V2.70605C0 2.04905 0.291 1.50205 1.131 1.42905Z"/>
+              </svg>
+              <div className='text-gray-600 dark:text-slate-100 px-5 pt-4 lg:pt-12'>
+                ドキュメントやタスクの管理をNotionを使って行なえます。Markdownによる記述も可能です。
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <div className="w-full pt-10">
@@ -107,6 +123,23 @@ export default function About() {
               <SkillsDisplay title="Maya" imgsrc="/maya.svg">Mayaを使用して、簡単な3Dモデルを作成することができます。</SkillsDisplay>
               <SkillsDisplay title="Python" imgsrc="/python.svg">Pythonを使用して、ソケット通信やBot作成、画像加工などができます。</SkillsDisplay>
               <SkillsDisplay title="Davinch Resolve" imgsrc="/davinch.png">Davinch Resolveを使用して、簡単な動画を作成できます。</SkillsDisplay>
+            </div>
+            <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
+              
+              <div className="flex flex-col items-center w-11/12 lg:w-1/4 h-full p-5 bg-white dark:bg-slate-700 text-center shadow-xl duration-300 xl:h-[450px]">
+                <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8'>
+                  WordPress
+                </div>
+                <svg width="200" height="220" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-800 dark:fill-slate-200'>
+                  <path d="M1.42 10C1.42 8.76 1.69 7.58 2.16 6.5L6.26 17.72C4.80843 17.0192 3.58414 15.9229 2.72793 14.5572C1.87172 13.1915 1.41836 11.6119 1.42 10ZM15.79 9.57C15.79 10.3 15.5 11.15 15.14 12.34L14.28 15.2L11.18 6L12.16 5.9C12.63 5.84 12.57 5.16 12.11 5.19C12.11 5.19 10.72 5.3 9.82 5.3L7.56 5.19C7.1 5.16 7.05 5.87 7.5 5.9L8.41 6L9.75 9.64L7.87 15.27L4.74 6L5.73 5.9C6.19 5.84 6.13 5.16 5.67 5.19C5.67 5.19 4.28 5.3 3.38 5.3L2.83 5.29C4.37 2.96 7 1.42 10 1.42C12.23 1.42 14.27 2.28 15.79 3.67H15.68C14.84 3.67 14.24 4.4 14.24 5.19C14.24 5.9 14.65 6.5 15.08 7.2C15.41 7.77 15.79 8.5 15.79 9.57ZM10.15 10.75L12.79 17.97L12.85 18.09C11.96 18.41 11 18.58 10 18.58C9.16 18.58 8.35 18.46 7.58 18.23L10.15 10.75ZM17.53 5.88C18.2214 7.14298 18.5826 8.56015 18.58 10C18.58 13.16 16.86 15.93 14.31 17.41L16.93 9.84C17.42 8.62 17.59 7.64 17.59 6.77L17.53 5.88ZM10 0C11.3132 0 12.6136 0.258658 13.8268 0.761205C15.0401 1.26375 16.1425 2.00035 17.0711 2.92893C17.9997 3.85752 18.7362 4.95991 19.2388 6.17317C19.7413 7.38642 20 8.68678 20 10C20 12.6522 18.9464 15.1957 17.0711 17.0711C15.1957 18.9464 12.6522 20 10 20C8.68678 20 7.38642 19.7413 6.17317 19.2388C4.95991 18.7362 3.85752 17.9997 2.92893 17.0711C1.05357 15.1957 0 12.6522 0 10C0 7.34784 1.05357 4.8043 2.92893 2.92893C4.8043 1.05357 7.34784 0 10 0ZM10 19.54C15.26 19.54 19.54 15.26 19.54 10C19.54 4.74 15.26 0.46 10 0.46C4.74 0.46 0.46 4.74 0.46 10C0.46 15.26 4.74 19.54 10 19.54Z"/>
+                </svg>
+                <div className='text-gray-600 dark:text-slate-100 px-5 pt-4 lg:pt-12'>
+                  WordPressを使用してWebサイトを構築したことがあります。
+                </div>
+              </div>
+
+              <SkillsDisplay title="C" imgsrc="/c.svg">C言語を使用し、簡単なCUIアプリケーションなどを作成できます。</SkillsDisplay>
+              <SkillsDisplay title="MATLAB" imgsrc="/matlab.svg">既存のデータを使用して、統計的な分析をしたことがあります。</SkillsDisplay>
             </div>
           </div>
         </div>
