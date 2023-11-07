@@ -18,7 +18,7 @@ export function ContactDisplay(props: Props) {
         <div className='text-xl md:text-2xl'>
           {props.title}
         </div>
-        <div className='text-xs ld:text-base'>
+        <div className='text-xs sm:text-base'>
           {props.id}
         </div>
       </div>
