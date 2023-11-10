@@ -32,8 +32,8 @@ export default function Home() {
       <div className='md:flex justify-start md:px-24 lg:px-40 xl:px-[300px] pt-10'>
         <SectionTitle title='About'>私について</SectionTitle>
       </div>
-      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-24 px-10 pt-5 w-full md:pb-3'>
-        <Image src='/katsuji_circle.png' alt='丸い自画像' height={300} width={300} className='drop-shadow-xl items-center'/>
+      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full md:pb-3'>
+        <Image src='/katsuji_circle.png' alt='丸い自画像' height={300} width={300} className='drop-shadow-xl items-center p-5'/>
         <div>
           <div className='flex-col text-center text-base md:text-lg pl-5 text-gray-800'>
             <div className='pb-5 md:pt-7'>
