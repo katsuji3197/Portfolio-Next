@@ -1,4 +1,5 @@
 import { ContactDisplay } from '@/ui/ContactDisplay'
+import { GA } from '@/ui/GA'
 import { ReadMoreButton } from '@/ui/ReadMoreButton'
 import { SectionTitle } from '@/ui/SectionTitle'
 import { WorksDisplay } from '@/ui/WorksDisplay'
@@ -8,6 +9,7 @@ import Link from 'next/link'
 export default function Contact() {
   return (
     <main className="min-h-max bg-cyan-50 dark:bg-slate-500">
+      <GA/>
       <div className='md:flex justify-start md:px-24 lg:px-40 xl:px-[300px] pt-64 pb-32'>
         <SectionTitle title='Contact'>お問い合わせ</SectionTitle>
       </div>
