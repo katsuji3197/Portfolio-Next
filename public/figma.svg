@@ -1,4 +1,4 @@
-<svg width="256" height="384" viewBox="0 0 256 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="256" height="250" viewBox="0 0 256 384" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_389_60)">
 <path d="M64 384C99.328 384 128 355.328 128 320V256H64C28.672 256 0 284.672 0 320C0 355.328 28.672 384 64 384Z" fill="#0ACF83"/>
 <path d="M0 192C0 156.672 28.672 128 64 128H128V256H64C28.672 256 0 227.328 0 192Z" fill="#A259FF"/>

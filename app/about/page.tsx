@@ -15,8 +15,8 @@ export default function About() {
       <div className='md:flex justify-start md:px-24 lg:px-40 xl:px-[300px] pt-48'>
         <SectionTitle title='About'>私について</SectionTitle>
       </div>
-      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-24 px-10 pt-5 w-full md:pb-3'>
-        <Image src='/katsuji_circle.png' alt='丸い自画像' height={300} width={300} className='drop-shadow-xl items-center'/>
+      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full md:pb-3'>
+        <Image src='/katsuji_circle.png' alt='丸い自画像' height={300} width={300} className='drop-shadow-xl items-center p-5'/>
         <div>
           <div className='flex-col text-center text-base md:text-lg pl-5 text-gray-800'>
             <div className='pb-5 md:pt-7'>
@@ -107,7 +107,7 @@ export default function About() {
               <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl pb-8'>
                 Notion
               </div>
-              <svg width="200" height="230" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-800 dark:fill-slate-200 p-12 lg:p-4'>
+              <svg width="240" height="240" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-800 dark:fill-slate-200 p-12 lg:p-4'>
                 <path d="M3.104 3.91005C3.688 4.38405 3.906 4.34805 5.002 4.27505L15.334 3.65505C15.554 3.65505 15.371 3.43505 15.298 3.39905L13.582 2.15905C13.253 1.90405 12.815 1.61105 11.976 1.68405L1.971 2.41405C1.607 2.45005 1.534 2.63305 1.679 2.77905L3.104 3.91005ZM3.724 6.31805V17.1881C3.724 17.7731 4.016 17.9911 4.674 17.9551L16.028 17.2981C16.685 17.2621 16.758 16.8601 16.758 16.3861V5.58805C16.758 5.11405 16.576 4.85805 16.174 4.89505L4.308 5.58805C3.87 5.62405 3.724 5.84305 3.724 6.31805ZM14.934 6.90105C15.006 7.22905 14.934 7.55805 14.604 7.59505L14.057 7.70405V15.7291C13.582 15.9851 13.144 16.1311 12.779 16.1311C12.195 16.1311 12.049 15.9481 11.611 15.4011L8.032 9.78305V15.2191L9.165 15.4741C9.165 15.4741 9.165 16.1311 8.251 16.1311L5.732 16.2771C5.659 16.1311 5.732 15.7671 5.988 15.6931L6.645 15.5111V8.32405L5.732 8.25105C5.659 7.92205 5.842 7.44805 6.353 7.41105L9.055 7.23005L12.779 12.9201V7.88705L11.829 7.77805C11.757 7.37605 12.049 7.08505 12.414 7.04805L14.934 6.90205V6.90105ZM1.131 1.42905L11.537 0.663054C12.814 0.553054 13.143 0.627054 13.947 1.21005L17.268 3.54505C17.816 3.94605 17.999 4.05505 17.999 4.49305V17.2981C17.999 18.1011 17.707 18.5751 16.685 18.6481L4.6 19.3781C3.833 19.4141 3.468 19.3051 3.066 18.7941L0.62 15.6201C0.182 15.0361 0 14.5991 0 14.0871V2.70605C0 2.04905 0.291 1.50205 1.131 1.42905Z"/>
               </svg>
               <div className='text-gray-600 dark:text-slate-100 px-5 pt-4 lg:pt-12'>
