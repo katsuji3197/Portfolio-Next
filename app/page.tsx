@@ -1,3 +1,4 @@
+import { GA } from '@/ui/GA'
 import { ReadMoreButton } from '@/ui/ReadMoreButton'
 import { SectionTitle } from '@/ui/SectionTitle'
 import { TopCatchTitle } from '@/ui/TopCatchTitle'
@@ -8,7 +9,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="min-h-screen bg-cyan-50 dark:bg-slate-500">
-
+      <GA/>
       <div className='md:pl-12 xl:pl-48 pt-64 pb-48 md:pb-30'>
         <div>
           <TopCatchTitle />
