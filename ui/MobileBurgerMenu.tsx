@@ -67,7 +67,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
     : 'hidden';
 
   const menuStyles = isOpen
-    ? 'animate-scale-in-center pt-28 pl-5 sm:pl-24 fixed inset-0 z-50 flex h-[80vh] w-[94vw] sm:w-[80vw] flex-col'
+    ? 'animate-scale-in-center pt-14 pl-5 sm:pl-24 fixed inset-0 z-50 flex h-[80vh] w-[94vw] sm:w-[80vw] flex-col'
     : 'hidden';
 
   return (
@@ -75,7 +75,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
       <div className={`overlay ${overlayStyles}`} onClick={closeMenu}></div>
       <nav className={`menu ${menuStyles}`}>
         <div className={`animation-delay-show bg-white opacity-90 shadow-md rounded-lg ${isOpen ? 'block' : 'hidden'}`}>
-          <button onClick={closeMenu} className="pt-24 absolute top-12 right-8">
+          <button onClick={closeMenu} className="pt-24 absolute top-0 right-8">
             <Image
               src="/CloseMark.svg"
               width={35}
@@ -83,7 +83,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
               alt="閉じる"
             />
           </button>
-          <div className="flex max-h-[50vh] min-h-[380px] flex-col justify-between pt-[10vh] text-[24px] sm:text-[30px] text-gray-700 pl-9">
+          <div className="flex max-h-[30vh] min-h-[360px] flex-col justify-between pt-[7vh] text-[24px] sm:text-[30px] text-gray-700 pl-9">
             {mobileBurgerMenuItems.map((item) => (
               <Link href={item.href} key={item.text} onClick={closeMenu}>
                 <p>{item.text}</p>
@@ -92,11 +92,11 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
           </div>
           <div className="flex flex-col text-[#575757]">
             <div className="flex justify-center">
-              <div className="mt-[115px] h-[0px] w-[80vw] translate-x-[-5px] border border-gray-500" />
+              <div className="mt-10 h-0 w-[80vw] translate-x-3 border border-gray-500" />
             </div>
-            <div className="flex flex-col justify-center pb-[12px] pt-[12px]">
+            <div className="flex flex-col justify-center pb-[12px] pt-5">
               <div className="flex justify-between text-black">
-                <div className="flex gap-4 pl-9">
+                <div className="flex gap-4 pl-8">
                   {footerSNS.map((item) => (
                     <Link className="mr-[2vw]" href={item.href} key={item.name}>
                       <Image

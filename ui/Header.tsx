@@ -12,8 +12,8 @@ export function Header() {
     <main className="pb-[30px]hidden fixed top-0 z-50 flex w-[100vw] justify-between py-2 md:py-3 xl:py-5 pl-[27px]">
       <Link href="/" className="item-center flex hover:opacity-30">
         <div className='flex-col pt-4'>
-          <div className='text-3xl md:text-4xl xl:text-5xl font-semibold text-black dark:text-white'>F<span className='text-sky-600 dark:text-sky-300'>o</span>lio</div>
-          <div className='text-base md:text-xl xl:text-2xl pt-2 text-gray-700 dark:text-gray-300'>Folio of NAKATSUJI Motoki</div>
+          <div className='text-2xl md:text-4xl xl:text-5xl font-semibold text-black dark:text-white'>F<span className='text-sky-600 dark:text-sky-300'>o</span>lio</div>
+          <div className='text-sm md:text-xl xl:text-2xl pt-2 text-gray-700 dark:text-gray-300'>Folio of NAKATSUJI Motoki</div>
         </div>
       </Link>
       <div className='md:pr-[3rem] xl:pr-[4rem] pt-5 font-medium'>
