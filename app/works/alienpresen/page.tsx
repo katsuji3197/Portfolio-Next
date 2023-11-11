@@ -1,11 +1,5 @@
 import { GA } from '@/ui/GA'
-import { InfoDisplay } from '@/ui/InfoDisplay'
-import { ReadMoreButton } from '@/ui/ReadMoreButton'
 import { SectionTitle } from '@/ui/SectionTitle'
-import { SkillsDisplay } from '@/ui/SkillsDiaplay'
-import { WorksDisplay } from '@/ui/WorksDisplay'
-import Image from 'next/image'
-import Link from 'next/link'
 
 export default function AlienPresen() {
   return (
