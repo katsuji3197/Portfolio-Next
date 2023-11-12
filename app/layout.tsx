@@ -11,11 +11,11 @@ const notoSansJP = Noto_Sans_JP({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'N.Motoki Poerfolio',
+    default: 'N.Motoki Portfolio',
     template: '%s | Portfolio of NAKATSUJI Motoki',
   },
   description:
-    'とある学生のポートフォリオ',
+    '中辻基希のポートフォリオ',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
