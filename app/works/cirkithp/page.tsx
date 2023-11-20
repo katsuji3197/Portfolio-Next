@@ -19,7 +19,7 @@ export default function CirKitHP() {
         <SectionTitle title='CirKit HP'>課外活動のホームページ</SectionTitle>
       </div>
         <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full pb-12'>
-        <Image src='/webmock.png' alt='丸い自画像' height={800} width={800} className='drop-shadow-xl items-center'/>
+        <Image src='/webmock.png' alt='CirKitHPのモックアップ' height={800} width={800} className='drop-shadow-xl items-center'/>
         <div>
           <div className='flex-col text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
             <div className='md:pt-18 dark:text-gray-100'>所属する課外活動である<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>のリブランディングに伴い、</div>
