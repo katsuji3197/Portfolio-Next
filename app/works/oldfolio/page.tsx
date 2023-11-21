@@ -3,9 +3,8 @@ import { InfoDisplay } from '@/ui/InfoDisplay'
 import { SectionTitle } from '@/ui/SectionTitle'
 
 import Image from 'next/image'
-import Link from 'next/link'
 
-export default function CirKitHP() {
+export default function OldFolio() {
 
   //画像の数
   const numberOfImages: number = 9;
