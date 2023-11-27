@@ -27,7 +27,7 @@ export default function AlienPresen() {
           </div>
           <div className='xl:px-32 py-16'>
             <div className='justify-center items-center gap-12 lg:gap-16 xl:gap-24 md:gap-32 px-16 pt-8 w-full pb-8 md:grid-cols-3 duration-200'>
-              <iframe src='/alien.pdf' className='w-full h-[100vh]'/>
+              <iframe src='/Alien.pdf' className='w-full h-[100vh]'/>
             </div>
           </div>
         </div>
