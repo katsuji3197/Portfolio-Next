@@ -60,8 +60,8 @@ export function Footer() {
           {footerLines.map((line, index) => (
             <div className="flex flex-wrap flex-col justify-center items-center gap-4 px-10 pt-4 w-full pb-3" key={index}>
               {line.map((item) => (
-                <Link className="pt-4 lg:mt-[26px] flex" href={item.href} key={item.text}>
-                  <div className=" text-gray-800 hover:text-gray-400 hover:text-2xl duration-300 dark:text-white text-xl lg:text-2xl">
+                <Link className="pt-4 lg:mt-[26px]" href={item.href} key={item.text}>
+                  <div className="text-gray-800 hover:text-gray-400 hover:text-2xl duration-300 dark:text-white text-xl lg:text-2xl">
                     {item.text}
                   </div>
                 </Link>
@@ -113,7 +113,7 @@ export function Footer() {
 
       <div className="flex justify-center pb-[12px] pt-[12px]">
         <div className="text-xs text-gray-600 dark:text-slate-50 md:flex md:flex-row">
-          <div className="px-5">
+          <div className="px-5 text-center">
             Copyright ©︎2023 NAKATSUJI Motoki All Rights Reserved.
           </div>
         </div>
