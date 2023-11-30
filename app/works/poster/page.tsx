@@ -43,7 +43,7 @@ export default function Poster() {
         </div>
 
         <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full pb-12'>
-          <iframe src='/PD2.pdf' className='w-[80vw] h-[115vw] xl:w-[30vw] xl:h-[46vw]'/>
+          <iframe src='/pd2.pdf' className='w-[80vw] h-[115vw] xl:w-[30vw] xl:h-[46vw]'/>
           <div>
             <div className='flex-col text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
               <SectionTitle title='プロジェクトデザインⅡ'>発表ポスター</SectionTitle>
