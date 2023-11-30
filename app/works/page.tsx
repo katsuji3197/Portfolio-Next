@@ -20,8 +20,8 @@ export default function Works() {
             <WorksDisplay imgsrc='/posterdisp.png' title='Poster' href='/works/poster'>授業の成果をまとめたポスターをいくつか作成しました</WorksDisplay>
           </div>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
-            <WorksDisplay imgsrc='/Alienmock.png' title='Alien-UI' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
-            <WorksDisplay imgsrc='/alien_presen_top.png' title='Alien-Presen' href='/works/alienpresen'>ハッカソンでの成果発表のために、プレゼンテーションを作成しました</WorksDisplay>
+            <WorksDisplay imgsrc='/Alienmock.png' title='Alien UI' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
+            <WorksDisplay imgsrc='/alien_presen_top.png' title='Alien Presen' href='/works/alienpresen'>ハッカソンでの成果発表のために、プレゼンテーションを作成しました</WorksDisplay>
           </div>
         </div>
       </div>
