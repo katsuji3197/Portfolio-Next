@@ -17,7 +17,7 @@ export default function Works() {
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
             <WorksDisplay imgsrc='/webmock.png' title='CirKit HP' href='/works/cirkithp'>所属する課外活動のホームページデザインを担当しました。</WorksDisplay>
             <WorksDisplay imgsrc='/oldfolio_mac.png' title='Old Folio' href='/works/oldfolio'>本サイトを作成する前のポートフォリオです</WorksDisplay>
-            <WorksDisplay imgsrc='/posterdisp.png' title='Poster' href='/works/poster'>授業の成果をまとめたポスターをいくつか作成しました</WorksDisplay>
+            <WorksDisplay imgsrc='/posterdisp.png' title='PD Poster' href='/works/poster'>授業の成果をまとめたポスターをいくつか作成しました</WorksDisplay>
           </div>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-3'>
             <WorksDisplay imgsrc='/Alienmock.png' title='Alien UI' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
