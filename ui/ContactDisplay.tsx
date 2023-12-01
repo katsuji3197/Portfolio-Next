@@ -14,11 +14,11 @@ export function ContactDisplay(props: Props) {
       <div>
         {props.children}
       </div>
-      <div className='text-gray-800 dark:text-slate-50 text-2xl pt-2 text-left'>
+      <div className='text-gray-800 dark:text-slate-50 text-2xl py-2 text-left'>
         <div className='text-xl md:text-2xl'>
           {props.title}
         </div>
-        <div className='text-xs md:text-base'>
+        <div className='text-xs md:text-base pt-2'>
           {props.id}
         </div>
       </div>
