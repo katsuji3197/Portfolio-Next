@@ -4,7 +4,7 @@ import { SectionTitle } from '@/ui/SectionTitle'
 export default function Poster() {
   return (
     <main className="min-h-screen bg-cyan-50 dark:bg-slate-500">
-      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-64 px-32 py-64 w-full'>
+      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-64 px-8 md:px-32 py-64 w-full'>
         <div className='flex flex-wrap flex-col justify-center items-center'>
         <SectionTitle title='Poster'>成果ポスター</SectionTitle>
           <div className='pt-16 dark:text-gray-100'>金沢工業大学の独自カリキュラムである、「プロジェクトデザイン」にて作成したポスターです。</div>
