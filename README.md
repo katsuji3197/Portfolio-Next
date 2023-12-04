@@ -7,6 +7,11 @@ Next.jsとTailwind CSSを使ったポートフォリオサイト
 - Next.js: 13.5.6
 - Tailwind CSS
 
+### リポジトリのクローン
+```bash
+git clone https://github.com/katsuji3197/Portfolio-Next.git
+```
+
 ### 起動方法
 ```bash
 npm run dev
