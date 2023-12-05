@@ -13,7 +13,7 @@ export function SkillsDisplay(props: Props) {
       <div className='text-gray-800 dark:text-slate-50 text-xl lg:text-2xl'>
         {props.title}
       </div>
-      <Image src={props.imgsrc} alt={`${props.title}の写真`} width={720} height={720} className='lg:h-auto lg:max-h-[320px] w-auto py-10 fill-gray-800 dark:fill-slate-50 p-12 pd:p-2'/>
+      <Image src={props.imgsrc} alt={`${props.title}の写真`} width={720} height={720} className='lg:h-auto lg:max-h-[320px] w-auto py-10 fill-gray-800 dark:fill-slate-50 p-2 sm:p-6 pd:p-2'/>
       <div className='text-gray-600 dark:text-slate-100 px-5'>
         {props.children}
       </div>
