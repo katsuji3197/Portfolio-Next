@@ -16,7 +16,7 @@ export function WorksDisplay(props: Props) {
         <div className='text-gray-800 dark:text-slate-50 text-2xl pb-5'>
           {props.title}
         </div>
-        <Image src={props.imgsrc} alt={`${props.title}の写真`} width={1020} height={1020} className='lg:h-auto lg:max-h-[310px] w-auto py-10 p-8 md:p-3'/>
+        <Image src={props.imgsrc} alt={`${props.title}の写真`} width={1020} height={1020} className='lg:h-auto lg:max-h-[310px] w-auto py-3 md:py-6 md:p-3'/>
         <div className='text-gray-600 dark:text-slate-100 px-5 py-4 pb-2'>
           {props.children}
         </div>
