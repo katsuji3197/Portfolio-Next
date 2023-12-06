@@ -8,6 +8,7 @@
   --background-start-rgb: 236, 254, 255;
   --background-end-rgb: 236, 254, 255;
   letter-spacing: 3px;
+  word-break: auto-phrase;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +17,7 @@
     --background-start-rgb: 100, 116, 139;
     --background-end-rgb: 30, 41, 59;
     letter-spacing: 3px;
+    word-break: auto-phrase;
   }
 }
 
