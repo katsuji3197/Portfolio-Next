@@ -4,16 +4,18 @@
 
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 255, 255, 255;
+  --foreground-rgb: 236, 254, 255;
+  --background-start-rgb: 236, 254, 255;
+  --background-end-rgb: 236, 254, 255;
   letter-spacing: 3px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 100, 116, 139;
+    --background-start-rgb: 100, 116, 139;
+    --background-end-rgb: 30, 41, 59;
+    letter-spacing: 3px;
   }
 }
 
