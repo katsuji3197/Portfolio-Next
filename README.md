@@ -3,7 +3,8 @@
 Next.jsとTailwind CSSを使ったポートフォリオサイト
 
 ### デプロイ
-https://folio.paon.dev
+https://folio.paon.dev/
+
 自宅サーバーを使ってデプロイ
 
 ### バージョン
