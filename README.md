@@ -2,6 +2,10 @@
 ### 概要
 Next.jsとTailwind CSSを使ったポートフォリオサイト
 
+### デプロイ
+https://folio.paon.dev
+自宅サーバーを使ってデプロイ
+
 ### バージョン
 - Node.js: 18
 - Next.js: 13.5.6
