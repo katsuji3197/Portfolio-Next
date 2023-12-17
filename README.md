@@ -1,6 +1,7 @@
 # ポートフィリオサイト
 ### 概要
 Next.jsとTailwind CSSを使ったポートフォリオサイト
+未完成、デザインなど修正中
 
 ### デプロイ
 https://folio.paon.dev/
