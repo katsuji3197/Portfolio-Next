@@ -55,6 +55,21 @@ export default function Poster() {
             </div>
           </div>
         </div>
+
+        <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full pb-12'>
+          <iframe src='/pdz.pdf' className='w-[80vw] h-[115vw] xl:w-[30vw] xl:h-[46vw]'/>
+          <div>
+            <div className='flex-col text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
+              <SectionTitle title='プロジェクトデザイン実践'>発表ポスター</SectionTitle>
+              <div className='pt-8 dark:text-gray-100'>身の回りの課題を解決するためのアプリケーションを作成しました。</div>
+              <div className='pt-2 dark:text-gray-100'>感性工学により様々なWebサイトを印象を集め、それをデータとして</div>
+              <div className='pt-2 dark:text-gray-100 pb-12'>様々なサイトの中から希望する印象のサイトを見つけてくれるものです。</div>
+              <div className='flex justify-center'>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </main>
   )
