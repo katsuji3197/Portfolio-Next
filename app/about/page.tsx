@@ -18,7 +18,7 @@ export default function About() {
             <div className='pb-5 md:pt-7'>
               <SectionTitle title='中辻 基希'>NAKATSUJI Motoki</SectionTitle>
             </div>
-            <div className='md:pt-18 dark:text-gray-100'>幅位広い領域のデザインやテクノロジーに興味がある大学生。</div>
+            <div className='md:pt-18 dark:text-gray-100'>幅広い領域のデザインやテクノロジーに興味がある大学生。</div>
             <div className='pt-2 dark:text-gray-100'>課外活動でありながら、株式会社でもある「<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>」に所属しています。</div>
             <div className='pt-2 dark:text-gray-100'>デザイナーとして、HPやアプリのデザイン・開発を行っています。</div>
           </div>
