@@ -114,7 +114,7 @@ export function Footer() {
       <div className="flex justify-center pb-[12px] pt-[12px]">
         <div className="text-xs text-gray-600 dark:text-slate-50 md:flex md:flex-row">
           <div className="px-5 text-center">
-            Copyright ©︎2023 NAKATSUJI Motoki All Rights Reserved.
+            Copyright &copy;2024 NAKATSUJI Motoki All Rights Reserved.
           </div>
         </div>
       </div>
