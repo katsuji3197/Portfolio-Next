@@ -22,7 +22,7 @@ export default function Home() {
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-4'>
             <WorksDisplay imgsrc='/webmock.png' title='CirKit HP' href='/works/cirkithp'>所属する課外活動のホームページデザインを担当しました。</WorksDisplay>
             <WorksDisplay imgsrc='/Alienmock.png' title='Alien UI' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
-            <WorksDisplay imgsrc='/posterdisp.png' title='Poster' href='/works/poster'>授業の成果をまとめたポスターをいくつか作成しました</WorksDisplay>
+            <WorksDisplay imgsrc='/minshoku/mock.png' title='Minshoku Web' href='/works/alien'>地元のこども食堂さんのホームページを作成しました。</WorksDisplay>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function Home() {
               <SectionTitle title='中辻 基希'>NAKATSUJI Motoki</SectionTitle>
             </div>
             <div className='md:pt-18 dark:text-gray-100'>幅広い領域のデザインやテクノロジーに興味がある大学生。</div>
-            <div className='pt-2 dark:text-gray-100'>課外活動でありながら、株式会社でもある「<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>」に所属しています。</div>
+            <div className='pt-2 dark:text-gray-100'>課外活動でありながら、学生が運営する株式会社でもある「<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>」に所属しています。</div>
             <div className='pt-2 dark:text-gray-100'>デザイナーとして、HPやアプリのデザイン・開発を行っています。</div>
           </div>
           <div className='pt-10 pb-10 text-gray-800 lg:pl-4'>
