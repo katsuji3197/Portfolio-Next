@@ -22,7 +22,7 @@ export default function Home() {
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-16 px-10 pt-10 w-full pb-4'>
             <WorksDisplay imgsrc='/webmock.png' title='CirKit HP' href='/works/cirkithp'>所属する課外活動のホームページデザインを担当しました。</WorksDisplay>
             <WorksDisplay imgsrc='/Alienmock.png' title='Alien UI' href='/works/alien'>ハッカソンに参加し、Webアプリのデザインを作成しました</WorksDisplay>
-            <WorksDisplay imgsrc='/minshoku/mock.png' title='Minshoku Web' href='/works/alien'>地元のこども食堂さんのホームページを作成しました。</WorksDisplay>
+            <WorksDisplay imgsrc='/minshoku/mock.png' title='Minshoku Web' href='/works/minshoku'>地元のこども食堂さんのホームページを作成しました。</WorksDisplay>
           </div>
         </div>
       </div>
