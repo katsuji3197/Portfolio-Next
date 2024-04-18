@@ -18,10 +18,25 @@ export default function CirKitHP() {
       <div className='md:flex justify-start md:px-24 lg:px-40 xl:px-[300px] pt-64 pb-16'>
         <SectionTitle title='CirKit HP'>課外活動のホームページ</SectionTitle>
       </div>
-        <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full pb-12'>
+      <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-6 md:gap-24 px-10 pt-5 w-full pb-12'>
         <Image src='/webmock.png' alt='CirKitHPのモックアップ' height={800} width={800} className='drop-shadow-xl items-center'/>
         <div>
           <div className='flex-col text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
+          <div className=' bg-black bg-opacity-20 items-center pt-4 rounded-2xl my-5'>
+            <div className='pt-2 dark:text-gray-100 text-2xl pb-6 '>制作</div>
+            <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
+              <InfoDisplay title='制作'>チーム制作</InfoDisplay>
+              <InfoDisplay title='担当'>デザイナー</InfoDisplay>
+            </div>
+          </div>
+          <div className=' bg-black bg-opacity-20 items-center pt-4 rounded-2xl my-5'>
+            <div className='pt-2 dark:text-gray-100 text-2xl pb-6'>制作期間</div>
+            <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
+              <InfoDisplay title='リサーチ'>1ヶ月</InfoDisplay>
+              <InfoDisplay title='デザイン制作'>4ヶ月</InfoDisplay>
+              <InfoDisplay title='開発期間'>随時更新</InfoDisplay>
+            </div>
+          </div>
             <div className='md:pt-18 dark:text-gray-100'>所属する課外活動である<Link href="https://cirkit.jp" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>CirKit</Link>のリブランディングに伴い、</div>
             <div className='pt-2 dark:text-gray-100'>ホームページのデザインを担当しました。</div>
             <div className='pt-2 dark:text-gray-100'>株式会社と課外活動の2面性を持つことを念頭にデザインを行いました。</div>

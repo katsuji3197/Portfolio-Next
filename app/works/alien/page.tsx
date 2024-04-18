@@ -22,6 +22,21 @@ export default function Alien() {
         <Image src='/Alien_top.png' alt='以前のポートフォリオ' height={300} width={300} className='drop-shadow-xl items-center'/>
         <div>
           <div className='flex-col flex-wrap text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
+          <div className=' items-center pt-4 rounded-2xl my-5'>
+            <div className='pt-2 dark:text-gray-100 text-2xl pb-6 '>制作</div>
+            <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
+              <InfoDisplay title='制作'>チーム制作</InfoDisplay>
+              <InfoDisplay title='担当'>デザイナー</InfoDisplay>
+            </div>
+          </div>
+          <div className=' items-center pt-4 rounded-2xl my-5'>
+            <div className='pt-2 dark:text-gray-100 text-2xl pb-6'>制作期間</div>
+            <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
+              <InfoDisplay title='リサーチ'>1週間</InfoDisplay>
+              <InfoDisplay title='デザイン制作'>2週間</InfoDisplay>
+              <InfoDisplay title='開発期間'>2週間</InfoDisplay>
+            </div>
+          </div>
             <div className='md:pt-18 dark:text-gray-100'>ハッカソン「<Link href="https://tornado-official.jp/tornado2023/" className='text-sky-800 dark:text-sky-300 hover:text-sky-500 hover:dark:text-sky-200 duration-300 text-lg md:text-2xl'>Tornado 2023</Link>」に参加した際に作成しました。</div>
             <div className='pt-2 dark:text-gray-100'>「コロナ禍で失われた青春を取り戻す」が開発のテーマでした。</div>
             <div className='pt-2 dark:text-gray-100'>メンバーと話あった結果、今までに出会ったことのなかった人や知識といった、</div>
