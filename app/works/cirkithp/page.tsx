@@ -22,14 +22,14 @@ export default function CirKitHP() {
         <Image src='/webmock.png' alt='CirKitHPのモックアップ' height={800} width={800} className='drop-shadow-xl items-center'/>
         <div>
           <div className='flex-col text-center justify-center items-center g:text-start text-base md:text-lg pl-5 text-gray-800 w-full'>
-          <div className=' bg-black bg-opacity-20 items-center pt-4 rounded-2xl my-5'>
+          <div className=' items-center pt-4 rounded-2xl my-5'>
             <div className='pt-2 dark:text-gray-100 text-2xl pb-6 '>制作</div>
             <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
               <InfoDisplay title='制作'>チーム制作</InfoDisplay>
               <InfoDisplay title='担当'>デザイナー</InfoDisplay>
             </div>
           </div>
-          <div className=' bg-black bg-opacity-20 items-center pt-4 rounded-2xl my-5'>
+          <div className='items-center pt-4 rounded-2xl my-5'>
             <div className='pt-2 dark:text-gray-100 text-2xl pb-6'>制作期間</div>
             <div className='flex flex-col md:flex-row justify-center gap-3 pb-6 px-4 md:px-0'>
               <InfoDisplay title='リサーチ'>1ヶ月</InfoDisplay>
