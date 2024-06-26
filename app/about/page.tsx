@@ -30,7 +30,7 @@ export default function About() {
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-3 lg:gap-16 px-10 pt-10 w-full lg:pb-3'>
             <InfoDisplay title="学校">金沢工業大学</InfoDisplay>
             <InfoDisplay title="学部">情報フロンティア学部</InfoDisplay>
-            <InfoDisplay title="学科・学年">メディア情報学科 2年</InfoDisplay>
+            <InfoDisplay title="学科・学年">メディア情報学科 3年</InfoDisplay>
           </div>
           <div className='flex flex-wrap flex-col justify-center items-center lg:flex-row gap-3 lg:gap-16 px-10 pt-3 lg:pt-10 w-full pb-3'>
             <InfoDisplay title="うまれ">石川県珠洲市</InfoDisplay>
