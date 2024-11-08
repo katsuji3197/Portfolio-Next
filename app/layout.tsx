@@ -22,10 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja">
       <body className={`${notoSansJP.className}`}>
-        <Header />
+        {/* {<Header />} */}
         <GA/>
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
