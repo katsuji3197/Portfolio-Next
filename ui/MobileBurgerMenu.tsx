@@ -62,9 +62,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
     setIsOpen(false);
   };
 
-  const overlayStyles = isOpen
-    ? 'fixed inset-0 z-40 bg-black opacity-60'
-    : 'hidden';
+  const overlayStyles = isOpen ? 'fixed inset-0 z-40 bg-black opacity-60' : 'hidden';
 
   const menuStyles = isOpen
     ? 'animate-scale-in-center pt-14 pl-5 sm:pl-24 fixed inset-0 z-50 flex h-[80vh] w-[94vw] sm:w-[80vw] flex-col'
@@ -74,14 +72,11 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
     <>
       <div className={`overlay ${overlayStyles}`} onClick={closeMenu}></div>
       <nav className={`menu ${menuStyles}`}>
-        <div className={`animation-delay-show bg-white opacity-90 shadow-md rounded-lg ${isOpen ? 'block' : 'hidden'}`}>
+        <div
+          className={`animation-delay-show bg-white opacity-90 shadow-md rounded-lg ${isOpen ? 'block' : 'hidden'}`}
+        >
           <button onClick={closeMenu} className="pt-24 absolute top-0 right-8">
-            <Image
-              src="/CloseMark.svg"
-              width={35}
-              height={35}
-              alt="閉じる"
-            />
+            <Image src="/CloseMark.svg" width={35} height={35} alt="閉じる" />
           </button>
           <div className="flex max-h-[30vh] min-h-[360px] flex-col justify-between pt-[7vh] text-[24px] sm:text-[30px] text-gray-700 pl-9">
             {mobileBurgerMenuItems.map((item) => (
@@ -112,9 +107,7 @@ export function MobileBurgerMenu({ isOpen, setIsOpen }: MobileBurgerMenuProps) {
                 </div>
               </div>
               <div className="flex items-center justify-between text-[10px] pl-9">
-                <p className="mt-[20px]">
-                  (C) 2023 NAKATSUJI Motoki
-                </p>
+                <p className="mt-[20px]">(C) 2023 NAKATSUJI Motoki</p>
               </div>
             </div>
           </div>

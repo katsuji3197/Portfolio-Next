@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 type FooterSNS = {
   name: string;
@@ -9,28 +9,26 @@ type FooterSNS = {
 export default function news() {
   const footerSNS: Array<FooterSNS> = [
     {
-      name: "Instagram",
-      iconSrc: "/instagram_black.svg",
-      href: "https://www.instagram.com/iamkatsuj1",
+      name: 'Instagram',
+      iconSrc: '/instagram_black.svg',
+      href: 'https://www.instagram.com/iamkatsuj1',
     },
     {
-      name: "X",
-      iconSrc: "/x_black.svg",
-      href: "https://x.com/iamkatsuji",
+      name: 'X',
+      iconSrc: '/x_black.svg',
+      href: 'https://x.com/iamkatsuji',
     },
     {
-      name: "Github",
-      iconSrc: "/github_black.svg",
-      href: "https://github.com/katsuji3197",
+      name: 'Github',
+      iconSrc: '/github_black.svg',
+      href: 'https://github.com/katsuji3197',
     },
   ];
 
   return (
     <main className="w-screen h-screen bg-neutral-100 text-neutral-800">
       <div className="w-screen bg-blue-900 px-4 flex justify-between items-center shadow-xl fixed top-0">
-        <p className="text-white py-4 text-xl font-black leading-none">
-          NEWS ZAKI
-        </p>
+        <p className="text-white py-4 text-xl font-black leading-none">NEWS ZAKI</p>
         <svg
           width="32"
           height="20"
@@ -44,16 +42,12 @@ export default function news() {
           />
         </svg>
       </div>
-      <Image src="/gou.png" alt="News image" width={800} height={800} className="px-2 pt-16"/>
+      <Image src="/gou.png" alt="News image" width={800} height={800} className="px-2 pt-16" />
       <div className="flex flex-col w-full p-4">
         <div className="border border-neutral-200 mb-2" />
-        <h1 className="text-lg font-bold py-2">
-          野々市の20代学生、ストーカー容疑で逮捕。
-        </h1>
+        <h1 className="text-lg font-bold py-2">野々市の20代学生、ストーカー容疑で逮捕。</h1>
         <div className="flex justify-between items-center">
-          <p className="text-neutral-500 text-sm pt-1 pb-4 leading-none">
-            2024年11月22日
-          </p>
+          <p className="text-neutral-500 text-sm pt-1 pb-4 leading-none">2024年11月22日</p>
           <div className="flex gap-2">
             <Image src="/github_black.svg" alt="" width={20} height={20} />
             <Image src="/x_black.svg" alt="" width={20} height={20} />
