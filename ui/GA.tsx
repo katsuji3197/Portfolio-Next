@@ -1,13 +1,13 @@
-"use client";
+'use client';
 export const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
 export function GA() {
   return (
     <>
-    <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -15,8 +15,8 @@ export function GA() {
             page_path: window.location.pathname,
           });
       `,
-      }}
+        }}
       />
-      </>
+    </>
   );
 }
